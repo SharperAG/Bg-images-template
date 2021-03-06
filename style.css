@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.scene {
+  margin: 100px auto;
+  width: 1080px;
+}
+
+.rect {
+  width: 800px;
+  height: 500px;
+
+  animation-name: mAnim;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+
+  border-radius: 10px;
+}
+
+@keyframes mAnim {
+  0% {
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  20% {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  40% {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  60% {
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  80% {
+    background-image: url(/img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(/img/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
